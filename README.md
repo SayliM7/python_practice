@@ -14,7 +14,7 @@ def guess_number():
             if guess < number:
                 print("Too low! Try again.")
             elif guess > number:
-                print("Too high! Try again.")
+                print("Too high! Try again.") 
             else:
                 print(f"🎉 Correct! You guessed it in {attempts} attempts.")
                 break
